@@ -1,16 +1,16 @@
 import logo from './logo.svg';
-import './App.css';
+import './ClubOutline.css';
 
-function App() {
+function ClubOutline() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="ClubOutline">
+      <header className="ClubOutline-header">
+        {/* <img src={logo} className="ClubOutline-logo" alt="logo" /> */}
         <p>
-          Edit <code>src/App.js</code> and save to reload. HELLO
+          Edit <code>src/ClubOutline.js</code> and save to reload. HELLO
         </p>
         <a
-          className="App-link"
+          className="ClubOutline-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
@@ -22,4 +22,4 @@ function App() {
   );
 }
 
-export default App;
+export default ClubOutline;
