@@ -13,16 +13,26 @@ function Manager() {
         <a href="#Classes ">Student Schedules</a>
         <input type = "text" placeholder = "Search.."/>
       </div>
-      <div class = "SplitLeft">
-        <div class = "Centered">
-          <button> Goodbye world</button>
+      <div class="row">
+      <div class="leftcolumn">
+      <h2>TITLE HEADING</h2>
+      <p>Some text..</p>
+    </div>
+    <div class="rightcolumn">
+      <h2>TITLE HEADING</h2>
+      <p>Some text..</p>
+    </div>
+      <div class="column">
+        <button>"Example Button"</button>
       </div>
+      <div class="column">
+        <button>"Example Button"</button>
       </div>
-      <div class = "SplitRight">
-        <div class = "Centered"> 
-          <button> Hello world</button>
+      <div class="column">
+        <button>"Example Button"</button>
       </div>
-  </div>
+
+      </div>
       {/*
       This is JS as well
       */}

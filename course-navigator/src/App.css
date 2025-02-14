@@ -1,5 +1,5 @@
 .body{
-  background-color: #84ec6f;
+  background-color: blue;
 }
 
 .topnav {
@@ -11,9 +11,9 @@
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 2% 2%;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 100%;
 }
 
 .topnav a:hover {
@@ -26,28 +26,93 @@
   color: white;
 }
 
-.split{
-  height: 50%;
+.column {
+  background-color: #64a5ea;
+  float: left;
+  width: 33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: ;
+  clear: both;
+}
+
+.leftcolumn {
+  float: left;
   width: 50%;
+  background-color: lightblue
+}
+
+/* Right column */
+.rightcolumn {
+  float: right;
+  width: 50%;
+  padding-left: 20px;
+  background-color: lightblue
+}
+
+.buttonAdd {
+  background: green;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.buttonAdd:hover {
+  background-color: white;
+  color: green;
+  border: 2px solid green;
+}
+
+.buttonRemove {
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.buttonRemove:hover {
+  background-color: white;
+  color: red;
+  border: 2px solid red;
+}
+
+.buttonConfirmation {
+  background: green;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.buttonConfirmation:hover {
+  background-color: white;
+  color: green;
+  border: 2px solid green;
+}
+
+.buttonCancel {
   position: fixed;
-  z-index:1;
-  top: 0;
-  overflow-x:hidden;
-  padding-top: 20px;
-}
-
-.left {
-  left: 0;
-}
-
-.right {
+  bottom: 0;
   right: 0;
+  width: 300px;
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition-duration: 0.3s;
 }
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+.buttonCancel:hover {
+  background-color: white;
+  color: red;
+  border: 2px solid red;
 }
