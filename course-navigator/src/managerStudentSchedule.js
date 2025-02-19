@@ -1,4 +1,3 @@
-
 import './App.css';
 
 function Manager() {
@@ -36,6 +35,17 @@ function Manager() {
   <h3>About</h3>
   <p>Who we are and what we do.</p>
 </div>
+
+<div class = "split left">
+    <div class = "centered">
+      Student Info
+</div>
+</div>
+  <div class = "split right">
+    <div class = "centered"> 
+      Course Requests
+    </div>
+  </div>
       {/*
       This is JS as well
       */}

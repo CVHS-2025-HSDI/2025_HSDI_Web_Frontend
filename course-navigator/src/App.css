@@ -30,6 +30,7 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: Arial;
+  background-color: #61B2F2;
 }
 
 /* Style tab links */
@@ -125,3 +126,31 @@ body, html {
   color: red;
   border: 2px solid red;
 }
+
+.split {
+  height: 100%;
+  width: 33%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  width: 30%;
+}
+.right {
+  right: 0;
+  width: 70%;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
