@@ -1,18 +1,15 @@
 import logo from './logo.svg';
 import {useEffect, useState} from 'react';
-import jwt_decode from "jwt_decode";
+import {jwtDecode} from 'jwt-decode';
 import './App.css';
 
-// import {jwtDecode} from 'jwt-decode';
-// const userObject = jwtDecode(response.credential)
-// console.log(userObject)
 
 function App() {
   const [user, setUser] = useState({});
 
   function handleCallbackResponse(response) {
     console.log("Encoded JWT ID token: "+response.credential);
-    var userObject = jwt_decode(response.credential);
+    const userObject = jwtDecode(response.credential)
     console.log(userObject);
     setUser(userObject);
     document.getElementById("signInDiv").hidden = true;
