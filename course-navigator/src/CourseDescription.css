@@ -3,69 +3,79 @@ body{
 }
 .head{
   color: black;
+  position: sticky;
+  top: 13vw;
+  left: 20vw;
+
+}
+.title{
+  position: sticky;
   text-align: center;
-  font-size: 20px;
-  margin-top: 100px;
+  font-size: 3vw;
 }
 .description{
-  text-align: center;
-  margin-top: 50px;
+  position: sticky;
+  left: 19vw;
+  top: 16vw;
   color: black;
-  font-size: 15px;
+  font-size: 1.5vw;
+  text-align: center;
 }
 .rectangle{
-  display: inline-block;
-  width: 800px;
-  height: 400px;
+  position: sticky;
+  width: 60vw;
+  height: 30vw;
+  left: 19vw;
+  top: 15vw;
   background-color: white;
-  border-width: 10px;
+  border-width: 1vw;
   border-style: solid;
   border-color: black;
 }
 .line{
-  position:absolute;
-  top: 80px;
-  left: 175px;
-  width: 1000px;
-  height: 3px;
+  position: sticky;
+  top:11vw;
+  right:10vw;
+  left: 18vw;
+  width: 65vw;
+  height: 0.01vw;
   background-color: black;
 }
 .falcon{
-  position: absolute;
-  top: 10px;
-  left: 175px;
-  width: 70px;
-  height: 70px;
+  position: sticky;
+  top: 1vw;
+  left: 18vw;
+  width: 5vw;
+  height: 5vw;
 }
 .person{
-  position: absolute;
-  top: 15px;
-  left: 800px;
-  width: 50px;
-  height: 60px;
+  position:sticky;
+  top: 2vw;
+  left: 64vw;
+  width: 3vw;
+  height: 4vw;
 }
 .logIn{
-  position: absolute;
-  top: 20px;
-  left: 900px;
-  width: 110px;
-  height: 50px;
-  border-width: 2px;
-  border-color: black;
-  border-style:solid;
-  border-radius: 20px;
-  font-size: 20px;
-  margin-top: 5px;
-}
-.signUp{
-  position: absolute;
-  top: 20px;
-  left: 1020px;
-  width: 110px;
-  height: 50px;
+  position: sticky;
+  top: 1vw;
+  left: 68.5vw;
+  width: 7vw;
+  height: 3vw;
   border-width:2px;
   border-color:black;
   border-style:solid;
-  border-radius:20px;
-  font-size: 20px;
+  border-radius:1vw;
+  font-size: 1vw;
+}
+.signUp{
+  position: sticky;
+  top: 1vw;
+  left: 76vw;
+  width: 7vw;
+  height: 3vw;
+  border-width:2px;
+  border-color:black;
+  border-style:solid;
+  border-radius:1vw;
+  font-size: 1vw;
 }
