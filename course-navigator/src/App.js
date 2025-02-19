@@ -3,6 +3,10 @@ import {useEffect, useState} from 'react';
 import jwt_decode from "jwt_decode";
 import './App.css';
 
+// import {jwtDecode} from 'jwt-decode';
+// const userObject = jwtDecode(response.credential)
+// console.log(userObject)
+
 function App() {
   const [user, setUser] = useState({});
 
