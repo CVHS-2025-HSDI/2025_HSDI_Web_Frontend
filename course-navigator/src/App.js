@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import {useEffect, useState} from 'react';
+import React from 'react';
 import {jwtDecode} from 'jwt-decode';
 import './App.css';
 
@@ -8,6 +9,7 @@ function App() {
   const [user, setUser] = useState({});
 
   function handleCallbackResponse(response) {
+    console.log("hi")
     console.log("Encoded JWT ID token: "+response.credential);
     const userObject = jwtDecode(response.credential)
     console.log(userObject);
@@ -37,7 +39,7 @@ function App() {
   return (
     <div className="App">
       <div id="signInDiv"></div>
-      { Object.keys(user).length != 0 &&
+      { Object.keys(user).length !== 0 &&
         <button onClick={(e) => handleSignOut(e)}>Sign Out</button>
 
       }
