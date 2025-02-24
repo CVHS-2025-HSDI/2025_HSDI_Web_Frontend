@@ -13,13 +13,18 @@ function CourseDescription(){
             <div>
           <div className = "line"></div>
           </div>
+          <img className = "image1" src = "https://resources.finalsite.net/images/t_image_size_4/v1667307653/rdaleorg/n7nbes1usko9oxtbw96p/Modernclassroom.png" alt = "React Image"/>
+          <img className = "image2" src = "https://resources.finalsite.net/images/t_image_size_4/v1667307653/rdaleorg/n7nbes1usko9oxtbw96p/Modernclassroom.png" alt = "React Image"/>
+          <img className = "image3" src = "https://resources.finalsite.net/images/t_image_size_4/v1667307653/rdaleorg/n7nbes1usko9oxtbw96p/Modernclassroom.png" alt = "React Image"/>
+          <img className = "image4" src = "https://resources.finalsite.net/images/t_image_size_4/v1667307653/rdaleorg/n7nbes1usko9oxtbw96p/Modernclassroom.png" alt = "React Image"/>
       <div className = "head">
         <h1 className = "title" >Honors Software Development Internship</h1>
         <div className = "rectangle">
             <p className = "description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed purus quis eros sodales semper. Aenean interdum enim eget vulputate maximus. Vivamus sem mi, sollicitudin ac lectus quis, hendrerit feugiat lacus. In hac habitasse platea dictumst. Praesent ac magna eu purus tristique finibus ac ultricies nibh. Aliquam quis tellus sollicitudin, iaculis nulla ut, convallis enim. Duis commodo laoreet libero a pretium. Vestibulum sed purus congue, tincidunt purus vel, ultrices libero. Sed vitae dui in dolor faucibus fringilla interdum sit amet turpis. Vestibulum pretium nulla quis tincidunt lacinia.
+            In AP Drawing, you’ll use the skills you learn in the course, and your own ideas, to create unique works of art. Throughout the course, you’ll develop an inquiry that guides artmaking through practice, experimentation, and revision of materials, processes, and ideas while demonstrating drawing skills through painting, drawing, sequential art, printmaking, illustration, animation, fibers, and others.
             </p>
         </div>
+          <textarea className = "blog" placeholder = "Type Here..."></textarea>
       </div>
       </body>
       

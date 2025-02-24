@@ -24,11 +24,11 @@ body{
 .rectangle{
   position: sticky;
   width: 60vw;
-  height: 30vw;
+  height: 14vw;
   left: 19vw;
-  top: 15vw;
+  top: 13.7vw;
   background-color: white;
-  border-width: 1vw;
+  border-width: 0.5vw;
   border-style: solid;
   border-color: black;
 }
@@ -78,4 +78,60 @@ body{
   border-style:solid;
   border-radius:1vw;
   font-size: 1vw;
+}
+.image1{
+  position: absolute;
+  top: 13.7vw;
+  left: 1vw;
+  width: 16vw;
+  height: 14vw;
+  border-width: 0.5vw;
+  border-color: black;
+  border-style: solid;
+}
+
+.image2{
+  position: absolute;
+  top: 29.7vw;
+  left: 1vw;
+  width: 16vw;
+  height: 14vw;
+  border-width: 0.5vw;
+  border-color: black;
+  border-style: solid;
+}
+
+.image3{
+  position: absolute;
+  top: 13.7vw;
+  right: 2vw;
+  width: 16vw;
+  height: 14vw;
+  border-width: 0.5vw;
+  border-color: black;
+  border-style: solid;
+}
+.image4{
+  position: absolute;
+  top: 29.7vw;
+  right: 2vw;
+  width: 16vw;
+  height: 14vw;
+  border-width: 0.5vw;
+  border-color: black;
+  border-style: solid;
+}
+
+.blog{
+  position: absolute;
+  width: 60vw;
+  height: 14vw;
+  left: 19vw;
+  top: 21.5vw;
+  background-color: white;
+  border-width: 0.5vw;
+  border-style: solid;
+  border-color: black;
+  color: black;
+  font-size: 1.5vw;
 }
