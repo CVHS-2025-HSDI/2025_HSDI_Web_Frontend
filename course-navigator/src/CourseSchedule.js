@@ -10,6 +10,9 @@ function CourseSchedule(){
           <button className = "signUp">
               Sign Up 
           </button>
+          <button>
+
+          </button>
         <div className = "line"></div>
       <div className = "head">
         <h1>Schedule and Planning</h1>
@@ -17,12 +20,12 @@ function CourseSchedule(){
             <p>
             aewsfdxgchvjbLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
             </p>
-        <div className = "line1"></div>
-        <div className = "line2"></div>
-        <div className = "line3"></div>
-        <div className = "line4"></div>
-        <div className = "line5"></div>
-        <div className = "line6"></div>
+          <div className = "line1"></div>
+          <div className = "line2"></div>
+          <div className = "line3"></div>
+          <div className = "line4"></div>
+          <div className = "line5"></div>
+          <div className = "line6"></div>
         </div>
       </div>
       <p>
