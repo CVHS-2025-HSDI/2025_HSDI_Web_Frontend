@@ -19,7 +19,51 @@ body {
     position: absolute;
     z-index: 1;
 }
-
+.courserecobutton{
+    border-radius: 25px;
+    font-size: x-large;
+    position: absolute;
+    font-family: "Racing Sans One", serif;
+    max-width: 40%;
+    height: 8%;
+    top:66%;
+    font-size:1.8rem;
+    background-color: antiquewhite;
+    width: 30%;
+    left:65%;
+    z-index: 20;
+    cursor: pointer;
+}
+.clubsbutton{
+    border-radius: 25px;
+    font-size: x-large;
+    position: absolute;
+    font-family: "Racing Sans One", serif;
+    font-size:1.8rem;
+    max-width: 40%;
+    height: 8%;
+    top:75%;
+    background-color: rgb(126, 187, 231);
+    width: 30%;
+    left:65%;
+    z-index: 20;
+    cursor: pointer;
+}
+.coursesbutton{
+    border-radius: 25px;
+    font-size: x-large;
+    position: absolute;
+    font-family: "Racing Sans One", serif;
+    font-size:1.8rem;
+    max-width: 40%;
+    height: 8%;
+    top:84%;
+    background-color: rgb(89, 141, 245);
+    width: 30%;
+    left:65%;
+    z-index: 20;
+    cursor: pointer;
+}
 /* Hump Image */
 .image2 {
     position: absolute;
@@ -31,7 +75,7 @@ body {
 .image3{
     position: absolute;
     width: 9%;
-    height: 9%;
+    height: 95%;
     left: 0%;
     top: .90%;
     z-index: 5;
@@ -41,9 +85,11 @@ body {
 .slideshow-container {
     position: absolute;
     top: 45%;
-    left: 50%;
-    transform: translate(-2%, -51%);
+    left: 17%;
+    transform: translate(-7%, -51%);
     z-index: 3;
+    width: 90%;
+    height: 100%;
 }
 .header{
     width: 100%;
@@ -56,13 +102,24 @@ body {
     position: absolute;
     z-index: 4;
 }
+.profilebutton{
+    background-color: transparent;
+    position: absolute;
+    border: none;
+    top: 0.5%;
+    left:93%;
+    cursor: pointer;
+    height: 10%;
+    width:4%;
+    z-index: 10;
+}
 
 /* Hide images initially */
 .mySlides {
     display: none;
 }
 .profileimage{
-    top: 3%;
+    top: 1.5%;
     left: 93%;
     position:absolute;
     z-index: 9;
@@ -73,11 +130,11 @@ body {
     background-color: transparent; 
     border: none;  
     color: black;  
-    top: 5%;
+    top: 4%;
     left: 85%;
     position: absolute;
     text-align: center;
-    font-size: 1em; 
+    font-size: 1.2em; 
     cursor: pointer;
     z-index: 8;  
     text-transform: uppercase; 
@@ -91,10 +148,10 @@ body {
 .paragraphtext{
     position: absolute;
     text-align: left;
-    top:11%;
-    left:3%;
-    line-height: 1.6;
-    font-size: 130%;
+    top:9%;
+    left:1%;
+    line-height: 1.35;
+    font-size: 145%;
     max-width: 47%;
     color: black;
     z-index: 6;
@@ -108,7 +165,8 @@ body {
 
 /* Fading animation */
 .fade {
-    animation: fade .5s ease-in-out;
+    animation: fade 1s ease-in-out;
+    
 }
 
 @keyframes fade {
