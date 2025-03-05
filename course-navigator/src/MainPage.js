@@ -1,25 +1,69 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect, useState } from 'react';
+import './MainPage.css';
 
-function App() {
+function MainPage() {
+  const [slideIndex, setSlideIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setSlideIndex((prevIndex) => (prevIndex + 1) % 10); // Cycle through 3 slides
+    }, 4000);
+    return () => clearInterval(interval);
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload. HELLO
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="MainPage">
+      <div className="container">
+      <div className = "header">
+
+      <img src="./logo.png" className="image3" />
+          <h1>Crescenta Valley High School</h1>
+      </div>
+      <button class = "profilebutton"></button>
+      <button class = "Signinbutton">Sign In</button>
+      <div>     
+       <button class="courserecobutton">Course Recommendations</button>
+       <button class="clubsbutton">Clubs</button>
+       <button class="coursesbutton">Course List</button>
+      </div>
+      
+      <img src="./profileimage.png" className="profileimage"/>
+      
+      <div className="paragraphtext">
+          <p>
+              <b>Welcome to Course Navigator!<br /></b>
+              Explore the best classes, join exciting clubs, and connect with new friends all with real insights from students who’ve been there.
+              Whether you're looking for challenging courses, creative outlets, or social experiences, we help you find the perfect fit.
+              Get honest answers about academics, activities, and campus life so you know what to expect. Learn which classes are worth taking, which clubs match your interests, and how to make the most of your time at Crescenta Valley.
+          </p>      
+      </div>
+
+      
+        {/* Background Image */}
+        <img src="./Background.png" className="background" alt="Background" />
+        
+        {/* Slideshow Container */}
+        <div className="slideshow-container">
+          
+          {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((num, index) => (
+            <div
+              key={index}
+              className={`mySlides ${slideIndex === index ? "fade active-slide" : ""}`}
+            >
+              <img src={`${num}.png`} alt={`Slide ${num}`} style={{ width: '100%', height: '170%'}} />
+            </div>
+          ))}
+        </div>
+
+        {/* Hump Image */}
+        <img src="./hump.png" className="image2" alt="Hump" />
+      </div>
+
+      <script>
+        
+      </script>
     </div>
   );
 }
 
-export default App;
+export default MainPage;
