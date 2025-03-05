@@ -14,18 +14,23 @@ import React from 'react';
 var clubName = "Club Name";
 var presName = "Pres Name";
 var vpName = "Vp Name";
-var desc = "all the description text";
+var desc = "all the description text m felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate ee. Curabi";
 var email = "email@gmail.com";
 var insta = "@insta";
 var remind = "remind";
 var location = "Room 0000";
 
-
+http://share.bigfuture.org/739bc3
 function ClubDescription() {
   return (
     <div className="ClubDescription">
-      <div className="nav">
-        <a href="#home">
+      <div className="header">
+        <img src={falconLogo} className="falcon" alt="falcon" />
+        <h1>Crescenta Valley High School</h1>
+        <img src={accountIcon} className="accountIcon" alt="accountIcon" />
+        <button className = "Signinbutton">Sign In</button>
+
+        {/* <a href="#home">
           <img src={falconLogo} className="falcon" alt="falcon" />
           </a>
         <a href="#login">
@@ -36,9 +41,8 @@ function ClubDescription() {
           </a>
         <a href="#account">
           <img src={accountIcon} className="accountIcon" alt="accountIcon" />
-          </a>
-        </div>
-        
+          </a> */}
+      </div>
 
       <div className="flex ClubDescription-body">
         <div className="col pics">

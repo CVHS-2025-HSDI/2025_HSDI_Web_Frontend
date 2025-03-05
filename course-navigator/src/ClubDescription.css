@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=BioRhyme:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Racing+Sans+One&display=swap');
+
+body {
+  background-color: #61B2F2;
+  font-family: "Racing Sans One", serif;
+}
+/* .ClubDescription {
+  display: flex;
+  flex-direction: row;
+} */
 
 .nav {
   border-bottom: 1px solid black;
@@ -7,20 +17,60 @@
   padding-bottom: 20px;
   padding-top: 40px;
 }
-body {
-  background-color: #C8E4FF;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+.header{
+  vertical-align:middle;
+  display: flex;
+  width: 100%;
+  padding-left: 4%;
+  padding-top: 3%;
+  /* text-align: left; */
+  opacity: 0100;
+  background-color: #61b2f2;
+  color: black;
+  font-size: 1em;
+  /* position: absolute; */
+  z-index: 4;
+  margin-bottom: 1%;
 }
+h1 {
+  left:16%;
+  position: absolute;
+}
+
+.Signinbutton {
+  font-family: "Racing Sans One", sans-serif;
+  background-color: transparent; 
+  border: none;  
+  color: black;  
+  padding-top: 1.5%;
+  left: 85%;
+  position: absolute;
+  text-align: center;
+  font-size: 1em; 
+  cursor: pointer;
+  z-index: 8;  
+  text-transform: uppercase; 
+}
+.Signinbutton:hover {
+  color: rgb(1, 1, 1);
+  font-size: 1.4em;
+  transform: translate(-10%);
+}
+
 .falcon {
   width: 80px;
   text-align: left;
   margin-left: 20px;
+  z-index: 8;
 }
 
 .accountIcon {
-  float: right;
-  width: 80px; 
-  margin-right: 20px;
+  position: absolute;
+  left: 78%;
+  width: 60px; 
+  height: 60px;
+  /* margin-right: 20px; */
+  z-index: 8;
 }
 
 .account-buttons {
@@ -38,6 +88,9 @@ body {
   height: 60px;
   box-shadow: 1px 3px;
 } 
+.ClubDescription-body {
+  /* position: absolute; */
+}
 
 h2 {
   text-align: center;
