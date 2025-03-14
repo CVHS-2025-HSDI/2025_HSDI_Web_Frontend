@@ -1,5 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import axios from 'axios'
+
+const apiCall = () => {
+  axios.get('http://localhost:3000').then((data) => {
+    //this console.log will be in our frontend console
+    console.log(data)
+  })
+}
+
+apiCall()
 
 function App() {
   return (
