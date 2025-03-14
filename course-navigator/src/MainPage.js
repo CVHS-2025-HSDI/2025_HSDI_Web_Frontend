@@ -1,6 +1,18 @@
 import { useEffect, useState } from 'react';
 import './MainPage.css';
 
+import axios from 'axios'
+
+const apiCall = () => {
+  axios.get('http://localhost:3000').then((data) => {
+    //this console.log will be in our frontend console
+    console.log('data')
+  })
+}
+
+apiCall()
+
+
 function MainPage() {
   const [slideIndex, setSlideIndex] = useState(0);
 
