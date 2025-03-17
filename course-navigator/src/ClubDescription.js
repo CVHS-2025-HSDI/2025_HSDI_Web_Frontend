@@ -17,7 +17,7 @@ function ClubDescription() {
     <div className="ClubDescription">
       <div className="nav">
         <a href="#home">
-          <img src={falcon} className="falcon" alt="falcon" />
+          <img src={falcon} className="falcon2" alt="falcon" />
           </a>
         <a href="#login">
           <button className="account-buttons">Log In</button>
