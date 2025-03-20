@@ -23,7 +23,7 @@ function MainPage() {
       <button class = "Signinbutton">Sign In</button>
       <div>
 
-       <a href="#ClubDescription">
+       <a href="#ClubSearch">
                <button class="clubsbutton">Clubs</button>
        </a>
        <a href="#CourseDescription">

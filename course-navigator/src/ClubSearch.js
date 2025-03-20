@@ -132,7 +132,7 @@ function ClubSearch() {
     <div className="ClubSearch">
       <div className="nav">
         <a href="#home">
-          <img src={falcon} className="falcon" alt="falcon" />
+          <img src={falcon} className="falcon5" alt="falcon" />
         </a>
         <a href="#login">
           <button className="account-buttons">Log In</button>
