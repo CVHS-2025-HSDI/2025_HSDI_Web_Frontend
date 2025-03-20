@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import styles from './CourseSchedule.css';
 function CourseSchedule(){  
     return (
