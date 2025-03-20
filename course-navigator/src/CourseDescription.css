@@ -1,0 +1,145 @@
+body{
+  background-color: #C8E4FF;
+}
+.head{
+  color: black;
+  position: sticky;
+  top: 13vw;
+  left: 20vw;
+
+}
+.title{
+  
+  font-family: 'Open Sans',serif;
+  font-weight: 800;
+  position: sticky;
+  text-align: center;
+  font-size: 3.4vw;
+}
+.description1{
+  font-family: 'Open Sans',serif;
+  position: sticky;
+  left: 19vw;
+  top: 16vw;
+  color: black;
+  font-size: 1.5vw;
+  text-align: center;
+}
+.rectangle2{
+  position: sticky;
+  width: 60vw;
+  height: 14vw;
+  left: 19vw;
+  margin-top: -0%;
+  top: 13vw;
+  background-color: white;
+  border-width: 0.5vw;
+  border-style: solid;
+  border-color: black;
+}
+.line10{
+  position: absolute;
+  top:7.2vw;
+  right:10vw;
+  left: 18vw;
+  width: 65vw;
+  height: 0.01vw;
+  background-color: black;
+}
+.falcon{
+  position: sticky;
+  top: 1vw;
+  left: 18vw;
+  width: 5vw;
+  height: 5vw;
+}
+.person{
+  position:sticky;
+  top: 2vw;
+  left: 64vw;
+  width: 3vw;
+  height: 4vw;
+}
+.logIn{
+  position: absolute;
+  top: 1vw;
+  left: 68.5vw;
+  width: 7vw;
+  height: 3vw;
+  border-width:2px;
+  border-color:black;
+  border-style:solid;
+  border-radius:1vw;
+  font-size: 1vw;
+  margin-top: 1.5%;
+}
+.signUp{
+  position: absolute;
+  top: 1vw;
+  left: 76vw;
+  width: 7vw;
+  height: 3vw;
+  border-width:2px;
+  border-color:black;
+  border-style:solid;
+  border-radius:1vw;
+  font-size: 1vw;
+  margin-top: 1.5%;
+}
+.imagea{
+  position: absolute;
+  top: 13.7vw;
+  left: 1vw;
+  width: 16vw;
+  height: 14vw;
+  border-width: 0.5vw;
+  border-color: black;
+  border-style: solid;
+}
+
+.imageb{
+  position: absolute;
+  top: 29.7vw;
+  left: 1vw;
+  width: 16vw;
+  height: 14vw;
+  border-width: 0.5vw;
+  border-color: black;
+  border-style: solid;
+}
+
+.imagec{
+  position: absolute;
+  top: 13.7vw;
+  right: 2vw;
+  width: 16vw;
+  height: 14vw;
+  border-width: 0.5vw;
+  border-color: black;
+  border-style: solid;
+}
+.imaged{
+  position: absolute;
+  top: 29.7vw;
+  right: 2vw;
+  width: 16vw;
+  height: 14vw;
+  border-width: 0.5vw;
+  border-color: black;
+  border-style: solid;
+}
+
+.blog{
+  position: absolute;
+  width: 60vw;
+  height: 14vw;
+  left: 19vw;
+  top: 21.5vw;
+  margin-top: 0.5%;
+  background-color: white;
+  border-width: 0.5vw;
+  border-style: solid;
+  border-color: black;
+  color: black;
+  font-size: 1.5vw;
+}

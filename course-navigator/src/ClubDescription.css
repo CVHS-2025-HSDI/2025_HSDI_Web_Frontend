@@ -9,11 +9,13 @@
 }
 body {
   background-color: #C8E4FF;
+
 }
-.falcon {
-  width: 70px;
+.falcon2 {
+  width: 6%;
   text-align: left;
-  margin-left: 20px;
+  margin-top: 0%;
+  margin-left: 5%;
 }
 
 .accountIcon {

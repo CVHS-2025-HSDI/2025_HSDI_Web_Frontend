@@ -21,21 +21,28 @@ function MainPage() {
       </div>
       <button class = "profilebutton"></button>
       <button class = "Signinbutton">Sign In</button>
-      <div>     
-       <button class="courserecobutton">Course Recommendations</button>
-       <button class="clubsbutton">Clubs</button>
-       <button class="coursesbutton">Course List</button>
+      <div>
+
+       <a href="#ClubDescription">
+               <button class="clubsbutton">Clubs</button>
+       </a>
+       <a href="#CourseDescription">
+              <button class="courserecobutton">Course Recommendations</button>
+       </a>
+       <a href="#CourseSchedule">
+          <button class="coursesbutton">Course List</button>
+       </a>
       </div>
       
       <img src="./profileimage.png" className="profileimage"/>
       
       <div className="paragraphtext">
-          <p>
+          <p1>
               <b>Welcome to Course Navigator!<br /></b>
               Explore the best classes, join exciting clubs, and connect with new friends all with real insights from students who’ve been there.
               Whether you're looking for challenging courses, creative outlets, or social experiences, we help you find the perfect fit.
               Get honest answers about academics, activities, and campus life so you know what to expect. Learn which classes are worth taking, which clubs match your interests, and how to make the most of your time at Crescenta Valley.
-          </p>      
+          </p1>      
       </div>
 
       
