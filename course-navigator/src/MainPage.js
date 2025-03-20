@@ -1,6 +1,19 @@
 import { useEffect, useState } from 'react';
 import './MainPage.css';
+import axios from 'axios';
 
+var backendDATA;
+const apiCall = () => {
+  return axios.get('http://localhost:3200/MainPage').then((response) => {
+    //this console.log will be in our frontend console
+    
+    return JSON.stringify(response.data);
+    // 
+    
+  })
+  
+};
+backendDATA=apiCall();
 
 function MainPage() {
   const [slideIndex, setSlideIndex] = useState(0);
@@ -33,9 +46,7 @@ function MainPage() {
       <div className="paragraphtext">
           <p>
               <b>Welcome to Course Navigator!<br /></b>
-              Explore the best classes, join exciting clubs, and connect with new friends all with real insights from students who’ve been there.
-              Whether you're looking for challenging courses, creative outlets, or social experiences, we help you find the perfect fit.
-              Get honest answers about academics, activities, and campus life so you know what to expect. Learn which classes are worth taking, which clubs match your interests, and how to make the most of your time at Crescenta Valley.
+              {backendDATA}
           </p>      
       </div>
 

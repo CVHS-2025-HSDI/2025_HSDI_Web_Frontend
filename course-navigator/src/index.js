@@ -21,11 +21,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <MainPage />
-    <div className="bestestever">
-          <p>
-              {backendDATA}
-          </p>      
-      </div>
   </React.StrictMode>
 );
 
