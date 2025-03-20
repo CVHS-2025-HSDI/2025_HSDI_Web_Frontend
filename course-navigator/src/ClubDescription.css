@@ -1,0 +1,112 @@
+
+.nav {
+  /* border-bottom-style: solid; */
+  border-bottom: 2px solid black;
+  /* background-color: gray; */
+  height: 10vh;
+  margin: 40px 20px 0px 20px;
+  padding-bottom: 10px;
+}
+body {
+  background-color: #C8E4FF;
+}
+.falcon {
+  width: 70px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.accountIcon {
+  float: right;
+  width: 70px; 
+  margin-right: 20px;
+}
+
+.account-buttons {
+  float: right;
+  margin-right: 20px;
+  background-color: white;
+  border: 2px solid black;
+  /* padding: 15px 20px; */
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 8px;
+  width: 150px;
+  height: 55px;
+  box-shadow: 3px 4px;
+} 
+
+h2 {
+  text-align: center;
+}
+.pics {
+  width: 20vw;
+  /* background-color: gray; */
+  margin-left: 30px;
+}
+.contact-logo {
+  width: 50px;
+  flex: 1;
+}
+p {
+  font-size: 16px;
+  flex: 1;
+}
+/* .ClubDescription {
+  height: 40vmin;
+  display: flex;
+  flex-direction: column;
+  background-color: #61dafb;
+} */
+.description {
+  width: 35vw;
+  /* background-color: red; */
+  padding-top: 60px;
+}
+.col {
+  font-size: 32px;
+  flex: 1;
+  margin: 10px 50px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.horizontally-centered {
+  display: flex;
+  justify-content: center;
+}
+.club-pic {
+  width: 20vw;
+}
+.descbox {
+  width: 30vw;
+  height: 40vh;
+  background-color: white;
+  border: 2px black;
+  padding: 20px;
+  /* margin: 20px; */
+}
+
+.contacts {
+  width: 20vw;
+  background-color: white;
+  padding: 10px 20px;
+
+}
+.officer-pic {
+  width: 80px;
+}
+.contacts-pic {
+  width: 40px;
+  height: 40px;
+}
+.contact {
+  padding: 10px 0px;
+}
