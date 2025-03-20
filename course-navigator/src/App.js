@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function Course() {
   return (
     <div className="App">
       <header className="App-header">
