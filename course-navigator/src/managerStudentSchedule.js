@@ -6,8 +6,8 @@ function Manager() {
   //JS goes here
   return (
     <div>
-      <div class = "topnav">
-        <a class = "active" href="#Home">Home </a>
+      <div class="topnav">
+        <a class="active" href="#Home">Home </a>
         <a href="#Course Description">Course Description </a>
         <a href="#Classes ">Student Information</a>
         <input type = "text" placeholder = "Search.."/>
@@ -36,13 +36,13 @@ function Manager() {
   <p>Who we are and what we do.</p>
 </div>
 
-<div class = "split left">
-    <div class = "centered">
+<div class="split left">
+    <div class="centered">
       Student Info
 </div>
 </div>
-  <div class = "split right">
-    <div class = "centered"> 
+  <div class="split right">
+    <div class="centered"> 
       Course Requests
     </div>
   </div>
