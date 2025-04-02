@@ -47,7 +47,7 @@ function MainPage() {
 
       
         {/* Background Image */}
-        <img src="./Background.png" className="background" alt="Background" />
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgratisography.com%2F&psig=AOvVaw1ziWKlNFBMA0tXDIesdm_e&ust=1743705880170000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNDel9mAuowDFQAAAAAdAAAAABAE" className="background" alt="Background" />
         
         {/* Slideshow Container */}
         <div className="slideshow-container">
