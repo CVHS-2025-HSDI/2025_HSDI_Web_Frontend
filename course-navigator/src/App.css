@@ -1,11 +1,33 @@
 .App {
   text-align: center;
 }
+.input{
+
+}
+.userInput{
+  top: 5vw;
+  right: 40vw;
+}
+.username{
+  top: 2vw;
+  right: 40vw;
+}
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.passinput{
+  top: 15vw;
+  right: 40vw;
+}
+.login{
+  height:2.5vw;
+  width:13vw;
+  top:20vw;
+  right: 40vw;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
