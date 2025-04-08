@@ -30,7 +30,7 @@ function MainPage() {
               <button class="courserecobutton">Course Recommendations</button>
        </a>
        <a href="#CourseSchedule">
-          <button class="coursesbutton">Course List</button>
+          <button class="coursesbutton">Course Schedule</button>
        </a>
       </div>
       
