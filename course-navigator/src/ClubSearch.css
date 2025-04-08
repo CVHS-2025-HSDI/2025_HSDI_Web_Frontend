@@ -1,0 +1,95 @@
+.nav {
+  /* border-bottom-style: solid; */
+  border-bottom: 2px solid black;
+  /* background-color: gray; */
+  height: 10vh;
+  margin: 40px 20px 0px 20px;
+  padding-bottom: 10px;
+}
+/* body {
+  background-color: #C8E4FF;
+} */
+.falcon5 {
+  width: 70px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.accountIcon {
+  float: right;
+  width: 70px; 
+  margin-right: 20px;
+}
+
+.account-buttons {
+  float: right;
+  margin-right: 20px;
+  background-color: white;
+  border: 2px solid black;
+  /* padding: 15px 20px; */
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 8px;
+  width: 150px;
+  height: 55px;
+  box-shadow: 3px 4px;
+} 
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.search-bar {
+  width: 60%;
+  padding: 12px;
+  font-size: 18px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.search-bar:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+/* Style the search results */
+.search-results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.search-result-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  transition: transform 0.2s ease-in-out;
+}
+
+.search-result-item:hover {
+  transform: scale(1.05);
+  border-color: #007bff;
+}
+
+.club-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
