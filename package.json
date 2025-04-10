@@ -1,0 +1,26 @@
+{
+  "name": "2025_hsdi_web_frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CVHS-2025-HSDI/2025_HSDI_Web_Frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CVHS-2025-HSDI/2025_HSDI_Web_Frontend/issues"
+  },
+  "homepage": "https://github.com/CVHS-2025-HSDI/2025_HSDI_Web_Frontend#readme",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-scripts": "^3.0.1",
+            "react-hook-form": "^7.55.0"
+  }
+}

@@ -2,13 +2,15 @@
   "name": "course-navigator",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
+  "depenydencies": {
     "cra-template": "1.2.0",
+    "jwt-decode": "^4.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router": "^7.3.0",
     "react-router-dom": "^7.5.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "react-hook-form": "^7.55.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -33,5 +35,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^4.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.55.0",
+    "react-router-dom": "^7.5.0",
+    "react-scripts": "^5.0.1"
   }
 }
