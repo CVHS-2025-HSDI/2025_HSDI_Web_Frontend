@@ -47,7 +47,7 @@ function MainPage() {
 
       
         {/* Background Image */}
-        <img src="./Background.png" className="background" alt="Background" />
+        <img src=".Background.png" className="background" alt="Background" />
         
         {/* Slideshow Container */}
         <div className="slideshow-container">
