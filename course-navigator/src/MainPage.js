@@ -3,17 +3,26 @@ import './MainPage.css';
 import axios from 'axios';
 
 var backendDATA;
-const apiCall = () => {
-  return axios.get('http://localhost:3200/MainPage').then((response) => {
-    //this console.log will be in our frontend console
+// const apiCall = () => {
+//   return axios.get('http://localhost:3200/MainPage').then((response) => {
+//     //this console.log will be in our frontend console
     
-    return JSON.stringify(response.data);
-    // 
+//     return JSON.stringify(response.data[0].courseImageLink);
+//     // 
     
-  })
+//   })
+
+
   
-};
-backendDATA=apiCall();
+// };
+const apiCall = async(url) =>
+  {
+    return await axios.get(url).then(res => res.data);
+    
+  }
+
+const data = await apiCall('http://localhost:3200/MainPage');
+console.log(`Data: ${data}`);
 
 function MainPage() {
   const [slideIndex, setSlideIndex] = useState(0);
@@ -46,7 +55,8 @@ function MainPage() {
       <div className="paragraphtext">
           <p>
               <b>Welcome to Course Navigator!<br /></b>
-              {backendDATA}
+              <img src = {data[0].courseImageLink}/>
+              
           </p>      
       </div>
 
