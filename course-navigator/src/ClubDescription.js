@@ -20,7 +20,6 @@ var insta = "@insta";
 var remind = "remind";
 var location = "Room 0000";
 
-http://share.bigfuture.org/739bc3
 function ClubDescription() {
   return (
     <div className="ClubDescription">
