@@ -1,4 +1,4 @@
-body{
+ body{
   background-color: rgb(203, 236, 247);
 }
 .heading{
@@ -11,16 +11,12 @@ body{
   text-align: center; 
   margin-top: 50px;
   color: rgb(0, 0, 0);
-  text-align: center;
-  margin-top: 50px;
-  color: black;
   font-size: 15px;
 }
 .rectangle{
   display: inline-block;
   width: 915px;
   height: 620px;
-  height: 580px;
   background-color: white;
   border-width: 10px;
   border-style: solid;
@@ -43,14 +39,14 @@ body{
 .person1{
   position: absolute;
   top: 2.5%;
-  left: 67%;
+  left: 65%;
   width: 3.2%;
   height: 9%;
 }
 .Loggingin{
   position: absolute;
   top: 15px;
-  left: 1100px;
+  left: 70%;
   width: 110px;
   height: 50px;
   border-width: 2px;
@@ -61,9 +57,10 @@ body{
   margin-top: 5px;
 }
 .Signingup{
+  
   position: absolute;
   top: 20px;
-  left: 1220px;
+  left: 78%;
   width: 110px;
   height: 50px;
   border-width:2px;
@@ -80,7 +77,7 @@ body{
   background-color: rgb(0, 0, 0);
 }
 .line1{
-  top: 14%;
+  top: 13.5%;
   position:relative;
   width: 100%;
   height: 4px;
@@ -88,7 +85,6 @@ body{
 }
 .line2{
   top: 27%;
-  top: 28%;
   position:relative;
   width: 100%;
   height: 4px;
@@ -96,7 +92,6 @@ body{
 }
 .line3{
   top: 40.5%;
-  top: 42%;
   position:relative;
   width: 100%;
   height: 4px;
@@ -104,7 +99,6 @@ body{
 }
 .line4{
   top: 54%;
-  top: 56%;
   position:relative;
   width: 100%;
   height: 4px;
@@ -112,7 +106,6 @@ body{
 }
 .line5{
   top: 67.5%;
-  top: 70%;
   position:relative;
   width: 100%;
   height: 4px;
@@ -120,7 +113,6 @@ body{
 }
 .line6{
   top: 81%;
-  top: 84%;
   position:relative;
   width: 100%;
   height: 4px;
