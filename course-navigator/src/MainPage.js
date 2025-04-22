@@ -29,8 +29,9 @@ function MainPage() {
        <a href="#CourseDescription">
               <button class="courserecobutton">Course Recommendations</button>
        </a>
-       <a href="#CourseSchedule">
-          <button class="coursesbutton">Course List</button>
+       
+       <a href="#CourseSearch">
+          <button class="coursesbutton">Course Search</button>
        </a>
       </div>
       

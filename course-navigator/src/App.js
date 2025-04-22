@@ -6,25 +6,11 @@ import ClubDescription  from './ClubDescription';
 import CourseDescription from './CourseDescription';
 import CourseSchedule from './CourseSchedule';
 import ClubSearch from './ClubSearch';
+import CourseSearch from './CourseSearch';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload. HELLO bob is my uncle
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
     <Router>
       <Routes>
       <Route path="/" element={<Navigate replace to="home"/>}/>
@@ -32,10 +18,28 @@ function App() {
         <Route path = "/ClubSearch" element={<ClubSearch/>}/>
         <Route path = "/CourseDescription" element={<CourseDescription/>}/>
         <Route path = "/ClubDescription" element={<ClubDescription/>}/>
-        <Route path = "/CourseSchedule" element = {<CourseSchedule/>}/>
+        {/* <Route path = "/CourseSchedule" element = {<CourseSchedule/>}/> */}
+        <Route path = "/CourseSearch" element={<CourseSearch/>}/>
       </Routes>
     </Router>
+    </div>
   );
 }
 
 export default App
+
+
+//  <header className="App-header">
+//         {/* <img src={logo} className="App-logo" alt="logo" /> */}
+//         <p>
+//           Edit <code>src/App.js</code> and save to reload. HELLO bob is my uncle
+//         </p>
+//         <a
+//           className="App-link"
+//           href="https://reactjs.org"
+//           target="_blank"
+//           rel="noopener noreferrer"
+//         >
+//           Learn React
+//         </a>
+//       </header>
