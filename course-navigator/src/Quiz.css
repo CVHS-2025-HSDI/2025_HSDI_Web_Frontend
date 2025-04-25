@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=BioRhyme:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Racing+Sans+One&display=swap');
+
+body {
+  background-color: #61B2F2;
+  font-family: "Racing Sans One", serif;
+}
+.header{
+  /* background-color:white; */
+  vertical-align:middle;
+  display: flex;
+  width: 100%;
+  padding-left: 4%;
+  padding-top: 3%;
+  /* text-align: left; */
+  opacity: 0100;
+  background-color: #61b2f2;
+  color: black;
+  font-size: 1em;
+  /* position: absolute; */
+  z-index: 4;
+  margin-bottom: 1%;
+}
+h1 {
+  left:16%;
+  position: absolute;
+}
+.Signinbutton {
+  font-family: "Racing Sans One", sans-serif;
+  background-color: transparent; 
+  border: none;  
+  color: black;  
+  padding-top: 1.5%;
+  left: 85%;
+  position: absolute;
+  text-align: center;
+  font-size: 1em; 
+  cursor: pointer;
+  z-index: 8;  
+  text-transform: uppercase; 
+}
+.Signinbutton:hover {
+  color: rgb(1, 1, 1);
+  font-size: 1.4em;
+  transform: translate(-10%);
+}
+
+.falcon {
+  width: 80px;
+  text-align: left;
+  margin-left: 20px;
+  z-index: 8;
+}
+.accountIcon {
+  position: absolute;
+  left: 78%;
+  width: 60px; 
+  height: 60px;
+  /* margin-right: 20px; */
+  z-index: 8;
+}
+h2 {
+  text-align: center;
+}
+.beginQuizButton {
+  background-color: white;
+  display: block;
+  margin: auto;
+  border: 3px solid black;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 36px;
+  border-radius: 18px;
+  width: 75%;
+  height: 100px;
+}
+
+.question {
+  font-size: 28px;
+  text-align: center;
+}
+.questionBox {
+  display: flex;
+  flex-direction:column;
+  /* padding: 2%; */
+  width: 100%;
+  height: 60vh;
+  /* background-color:black; */
+}
+
+.choicesBox {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  /* width: 90%; */
+  /* height: 100%; */
+}
+.row {
+  display: flex;
+  width: 90%
+}
+.choiceButton {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  height: 120px;
+  background-color: white;
+  border: none;
+  border-radius: 12px;
+}
