@@ -192,3 +192,21 @@ body{
   cursor: pointer;
   margin-left: 10px;
 }
+
+.saveButton {
+  position: absolute;
+  top: 745px; 
+  left: 1150px;
+  width: 120px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 20px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.saveButton:hover {
+  background-color: #45a049;
+}

@@ -1,8 +1,8 @@
 
 import "./CourseSchedule.css";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
-function CourseSchedule() {  
+function CourseSchedule() {
   const [selectedSubjects, setSelectedSubjects] = useState({});
   const [selectedClasses, setSelectedClasses] = useState({});
 
@@ -15,16 +15,46 @@ function CourseSchedule() {
     Languages: ["Spanish", "Korean", "German", "Chinese"]
   };
 
+  // Load saved data from localStorage if available
+  useEffect(() => {
+    const savedData = localStorage.getItem("courseSelections");
+    if (savedData) {
+      const parsedData = savedData.split(", ").reduce((acc, item) => {
+        const [period, subject, course] = item.split(":");
+        const periodNum = period.replace("Period", "");
+        acc.selectedSubjects[periodNum] = subject;
+        acc.selectedClasses[periodNum] = course;
+        return acc;
+      }, { selectedSubjects: {}, selectedClasses: {} });
+
+      setSelectedSubjects(parsedData.selectedSubjects);
+      setSelectedClasses(parsedData.selectedClasses);
+    }
+  }, []);
+
   const handleSubjectChange = (period, event) => {
     const subject = event.target.value;
     setSelectedSubjects({ ...selectedSubjects, [period]: subject });
     setSelectedClasses({ ...selectedClasses, [period]: "" }); // Reset class when subject changes
   };
-  
+
   const handleClassChange = (period, event) => {
     setSelectedClasses({ ...selectedClasses, [period]: event.target.value });
   };
-  
+
+  const handleSave = () => {
+    // Convert the selected data into a string
+    const saveString = Object.keys(selectedSubjects).map(period => {
+      const subject = selectedSubjects[period];
+      const course = selectedClasses[period];
+      return `Period${period}:${subject}:${course}`;
+    }).join(", ");
+
+    // Save the string to localStorage
+    localStorage.setItem("courseSelections", saveString);
+    alert("Selections saved!");
+  };
+
   const periods = [1, 2, 3, 4, 5, 6];
   const subjects = Object.keys(subjectOptions);
 
@@ -84,6 +114,9 @@ function CourseSchedule() {
           ))}
         </div>
       </div>
+
+      {/* Save Button */}
+      <button className="saveButton" onClick={handleSave}>Save</button>
     </div>
   );
 import React, { useState } from 'react';
@@ -132,4 +165,5 @@ function CourseSchedule(){
       
     );
 }
+
 export default CourseSchedule;
