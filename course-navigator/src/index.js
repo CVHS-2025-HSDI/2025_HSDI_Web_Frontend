@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+<<<<<<< HEAD
 import Quiz from './Quiz';
+=======
+import MainPage from './MainPage';
+>>>>>>> a73f8ecf2e1fa2e02457957e74f374d5060484f6
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+<<<<<<< HEAD
     <Quiz />
+=======
+    <MainPage />
+>>>>>>> a73f8ecf2e1fa2e02457957e74f374d5060484f6
   </React.StrictMode>
 );
 
