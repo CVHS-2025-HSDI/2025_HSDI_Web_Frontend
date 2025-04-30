@@ -7,6 +7,9 @@ body{
 .input{
 
 }
+.message{
+  color:red
+}
 .userInput{
   height: 3vw;
   width: 20vw;
