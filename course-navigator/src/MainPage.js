@@ -20,7 +20,7 @@ function MainPage() {
           <h1>Crescenta Valley High School</h1>
       </div>
       <button class = "profilebutton"></button>
-      <a href="#LogIn">
+      <a href="#SignUp">
       <p1 class = "Signinbutton">Sign In</p1>
 
       </a>

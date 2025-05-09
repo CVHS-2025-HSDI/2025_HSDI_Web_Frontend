@@ -7,6 +7,8 @@ import MainPage from './MainPage';
 import ClubDescription  from './ClubDescription';
 import CourseSchedule from './CourseSchedule';
 import ClubSearch from './ClubSearch';
+import Login from './Login.js'
+import SignUp from './SignUp.js';
 
 function App() {
   return (
@@ -19,7 +21,8 @@ function App() {
         <Route path = "/ClubSearch" element={<ClubSearch/>}/>
         <Route path = "/ClubDescription" element={<ClubDescription/>}/>
         <Route path = "/CourseSchedule" element = {<CourseSchedule/>}/>
-        <Route path = "/LogIn" element = {<GoogleSignIn/>}/>
+        <Route path = "/LogIn" element = {<Login/>}/>
+        <Route path = "/SignUp" element = {<SignUp/>}/>
       </Routes>
     </Router>
       </div>
