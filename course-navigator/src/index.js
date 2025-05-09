@@ -1,12 +1,32 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
+import SignUp from './SignUp'
+import {Route, HashRouter as Router, Routes} from 'react-router-dom'
+import App from './App.js'
 
+
+function leapp(){
+  return(
+    <div classname = "App">
+      <SignUp/>
+          <Router>
+              <Routes>
+                <Route path = "/SignUp" element = {<SignUp/>}/>
+                <Route path="/Login" element = {<App/>}/>
+              </Routes>
+          </Router>
+    </div>
+    
+    
+  )
+}
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App></App>
+    <leapp/>
   </React.StrictMode>
 );
 
